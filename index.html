@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container nav">
+            <h1 class="logo">My <span>Portfolio</span></h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="javascript:void(0)" onclick="scrollToSection('focus')" class="menu">About</a>
+                <a href="javascript:void(0)" onclick="scrollToSection('skills')" class="menu">Skills</a>
+                <a href="javascript:void(0)" onclick="scrollToSection('projects')" class="menu">Projects</a>
+                <a href="javascript:void(0)" onclick="scrollToSection('contact')" class="menu">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container hero-wrap">
+        <div class="hero-text">
+            <h1>
+                I'm<br>
+                <span>Ayesha Masood</span>
+            </h1>
+            <p>
+                I am Software Engineer and
+                currently pursuing my degree from University
+                of Enginering & Technology, Lahore
+            </p>
+
+            <div class="hero-actions">
+                <a href="javascript:void(0)" onclick="scrollToSection('projects')" class="btn">Explore Project</a>
+                <a href="javascript:void(0)" onclick="scrollToSection('focus')" class="btn ghost">What I do</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <span class="glow-ring"></span>
+            <img src="Ayesha.jpg" alt="Portfolio Image">
+        </div>
+        </div>
+    </section>    
+
+    
+  <section class="section" id="focus">
+    <div class="container">
+
+        <h2 class="section-title">What I do</h2>
+
+      <div class="focus-grid">
+
+          <div class="focus-card">
+            <h3>Frontened Developer</h3><br>
+            <p>
+            Great experience in Frontened
+            developing using HTML & CSS.
+            </p>
+         </div>
+
+           <div class="focus-card">
+           <h3>Python Programmung</h3><br>
+           <p>
+           Have a Knownledge about 
+           Python Programmung
+           </p>
+          </div>
+
+       </div>
+   </div>
+ </section>
+ 
+ <section id="skills">
+  <h2 class="title">Skills</h2>
+  <div class="grid">
+    <div class="card">HTML5</div>
+    <div class="card">CSS3</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Python</div>
+  </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <br>
+        <p>Personal responsive portfolio using HTML & CSS.</p>
+      </div>
+      <div class="card">
+        <h3>ShadesTech Website</h3>
+        <br>
+        <p>Modern landing page with animations.</p>
+        <p>Live demo:<a href="https://shadestech.netlify.app">Click Here</a></p>
+      </div>
+      <div class="card">
+        <h3>Art Gallery Website</h3>
+        <br>
+        <p>Python Programming based art gallery with data storage.</p>
+      </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Contact Me</h2>
+
+  <p class="contact-text">
+    I’m always open to internship opportunities, collaborations, or tech-related discussions.
+    If you’d like to connect, feel free to reach out using the details below.
+  </p>
+
+  <div class="contact-details">
+    <p><span>Email:</span> ayeshamasood783@gmail.com</p>
+    <p><span>Phone:</span> +92 322 0214581</p>
+    <p><span>Location:</span> Lahore, Pakistan</p>
+  </div>
+
+  <div class="social-links">
+  <a href="https://www.linkedin.com/in/ayesha-masood-905b2037a" target="_blank">
+    LinkedIn
+  </a>
+  <a href="https://github.com/ayeshamasood783-droid" target="_blank">
+    GitHub
+  </a>
+</div>
+
+</section>
+
+ <footer>
+    <p>My Portfolio —  Made with &#9829 by Ayesha Masood</p>
+ </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
